@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 2px;
+}
+.container {
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.profile-form {
+  flex: 2;
+  padding: 2px;
+} 
+.profile-form label {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.profile-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.profile-form input:invalid {
+  border-color: red;
+}
+.profile-form .error {
+  color: red;
+  font-size: 0.9rem;
+}
+.password {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline;
+}
+.btn {
+  padding:5px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+.sidebar {
+  flex: 1;
+  background: WHITE;
+  padding: 2px;
+  text-align: center;
+}
+
+.progress-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+  
+}
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}

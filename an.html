@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Update</title>
+  <link rel="stylesheet" href="an.css" />
+</head>
+<body>
+  <div class="container">
+    <form class="profile-form" novalidate>
+      <label>
+        Full Name
+        <input type="text" name="name" placeholder="What should we call you?" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" placeholder="you@example.com" required />
+        <span class="error email-error"></span>
+      </label>
+
+      <label>
+        Enter Password
+        <div class="password-wrapper">
+          <input type="password" name="password" required minlength="8"/>
+          <button type="button" class="eye.icon">👁️</button> 
+        </div>  
+      </label>
+      <label>
+        Confirm Password
+        <div class="password-wrapper">
+          <input type="password" name="confirm_password" required minlength="8"/>
+          <button type="button" class="eye-icon">👁️</button>
+        </div>
+      </label>
+
+      
+    </form>
+
+    <div class="sidebar">
+      <div class="progress-circle" data-progress="65">
+      <button type="submit" class="btn">Update Profile</button> 
+       <span class="progress-text">65%</span>
+      </div>
+      <div class="todo">
+        <s>Create Account</s><br/>
+        <s>Update Roadmap Progress</s><br/>
+        <s>Setup Public Profile</s><br/>
+        <strong>Complete your first project</strong><br/>
+        <strong>Invite your Friends</strong>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
